@@ -60,7 +60,7 @@ export default function Hero() {
                   transition={{ duration: 0.8, delay: 0.2 }}
                   className="block"
                 >
-                  Junior Software
+                  Fullstack Software
                 </motion.span>
                 <motion.span
                   initial={{ y: 100, opacity: 0 }}
