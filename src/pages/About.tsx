@@ -504,8 +504,8 @@ export default function About() {
               <div className="flex flex-col md:flex-row items-center justify-center gap-6">
                 <Link to="/contact">
                   <Magnetic>
-                    <button className="px-12 py-6 bg-indigo-500 text-white rounded-2xl font-bold text-lg hover:bg-indigo-600 transition-all shadow-xl shadow-indigo-500/20 flex items-center gap-3 group">
-                      Start a Project <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+                    <button className="px-12 py-6 bg-white text-slate-950 rounded-2xl font-black text-lg hover:bg-slate-100 transition-all shadow-2xl shadow-white/10 flex items-center gap-3 group">
+                      Hire Me <Sparkles size={20} className="text-indigo-500 group-hover:rotate-12 transition-transform" />
                     </button>
                   </Magnetic>
                 </Link>

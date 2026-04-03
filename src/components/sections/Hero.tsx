@@ -60,7 +60,7 @@ export default function Hero() {
                   transition={{ duration: 0.8, delay: 0.2 }}
                   className="block"
                 >
-                  Full-stack Software
+                  Junior Software
                 </motion.span>
                 <motion.span
                   initial={{ y: 100, opacity: 0 }}
@@ -133,10 +133,11 @@ export default function Hero() {
                   <motion.button
                     whileHover={{ scale: 1.05, y: -5 }}
                     whileTap={{ scale: 0.95 }}
-                    className="group relative px-10 py-5 glass text-white rounded-2xl font-bold flex items-center gap-3 transition-all hover:bg-white/10"
+                    className="group relative px-10 py-5 bg-white text-slate-950 rounded-2xl font-black flex items-center gap-3 transition-all shadow-2xl shadow-white/10 overflow-hidden"
                   >
-                    <span className="relative z-10">Start a Project</span>
-                    <Sparkles size={20} className="relative z-10 text-indigo-400" />
+                    <span className="relative z-10">Hire Me</span>
+                    <Sparkles size={20} className="relative z-10 text-indigo-500" />
+                    <div className="absolute inset-0 bg-gradient-to-r from-slate-200 to-white opacity-0 group-hover:opacity-100 transition-opacity" />
                   </motion.button>
                 </Link>
                 

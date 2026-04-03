@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Outlet, useNavigate, Link, useLocation } from 'react-router-dom';
-import { LayoutDashboard, FolderKanban, MessageSquare, LogOut, ExternalLink, UserCircle } from 'lucide-react';
+import { LayoutDashboard, FolderKanban, MessageSquare, LogOut, ExternalLink, UserCircle, Plus } from 'lucide-react';
 import { motion } from 'motion/react';
 
 export default function AdminLayout() {
