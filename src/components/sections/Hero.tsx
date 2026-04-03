@@ -133,11 +133,11 @@ export default function Hero() {
                   <motion.button
                     whileHover={{ scale: 1.05, y: -5 }}
                     whileTap={{ scale: 0.95 }}
-                    className="group relative px-10 py-5 bg-white text-slate-950 rounded-2xl font-black flex items-center gap-3 transition-all shadow-2xl shadow-white/10 overflow-hidden"
+                    className="group relative px-10 py-5 glass text-white rounded-2xl font-bold flex items-center gap-3 transition-all hover:bg-white/10 border border-white/10 hover:border-indigo-500/50 shadow-2xl shadow-indigo-500/10"
                   >
                     <span className="relative z-10">Hire Me</span>
-                    <Sparkles size={20} className="relative z-10 text-indigo-500" />
-                    <div className="absolute inset-0 bg-gradient-to-r from-slate-200 to-white opacity-0 group-hover:opacity-100 transition-opacity" />
+                    <Sparkles size={20} className="relative z-10 text-indigo-400 group-hover:text-indigo-300 transition-colors" />
+                    <div className="absolute inset-0 bg-gradient-to-r from-indigo-500/10 to-violet-500/10 opacity-0 group-hover:opacity-100 transition-opacity" />
                   </motion.button>
                 </Link>
                 
